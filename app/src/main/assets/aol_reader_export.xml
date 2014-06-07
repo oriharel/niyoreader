@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<opml version="1.0">
+ <head>
+  <title>Ori subscriptions in Aol Reader</title>
+ </head>
+ <body>
+  <outline title="Code - General" text="Code - General">
+   <outline title="The Changelog" text="The Changelog" type="rss" xmlUrl="http://feeds.5by5.tv/changelog" htmlUrl="http://5by5.tv/changelog"/>
+   <outline title="רברס עם פלטפורמה" text="רברס עם פלטפורמה" type="rss" xmlUrl="http://feeds.feedburner.com/reversim" htmlUrl="http://www.reversim.com/"/>
+   <outline title="Hacker News" text="Hacker News" type="rss" xmlUrl="https://news.ycombinator.com/rss" htmlUrl="https://news.ycombinator.com/"/>
+   <outline title="Uri Lavi" text="Uri Lavi" type="rss" xmlUrl="http://feeds.feedburner.com/MicrosoftUriLavi" htmlUrl="http://www.irefactor.net/"/>
+   <outline title="Chromium Blog" text="Chromium Blog" type="rss" xmlUrl="http://blog.chromium.org/feeds/posts/default" htmlUrl="http://blog.chromium.org/"/>
+   <outline title="HNpod" text="HNpod" type="rss" xmlUrl="http://hnpod.com/episodes.rss" htmlUrl="http://hnpod.com/"/>
+   <outline title="Let me explain myself..." text="Let me explain myself..." type="rss" xmlUrl="http://blog.evendanan.net/feeds/atom.xml" htmlUrl="http://blog.evendanan.net/"/>
+   <outline title="הבלוג הפתוח למנהל הפיתוח" text="הבלוג הפתוח למנהל הפיתוח" type="rss" xmlUrl="http://feeds.feedburner.com/vprndhandbook" htmlUrl="http://blogs.microsoft.co.il/blogs/vprnd/"/>
+   <outline title="DeveloperZen" text="DeveloperZen" type="rss" xmlUrl="http://www.developerzen.com/feed/" htmlUrl="http://www.developerzen.com"/>
+   <outline title="Google Code Blog" text="Google Code Blog" type="rss" xmlUrl="http://googlecode.blogspot.com/feeds/posts/default" htmlUrl="http://googledevelopers.blogspot.com/"/>
+   <outline title="Martin Grüner's blog" text="Martin Grüner's blog" type="rss" xmlUrl="http://martingryner.com/feed/" htmlUrl="http://martingryner.com"/>
+   <outline title="טיפים בניהול" text="טיפים בניהול" type="rss" xmlUrl="http://feeds.feedburner.com/mngttips" htmlUrl="http://www.mngttips.com/"/>
+   <outline title="Conrad Irwin" text="Conrad Irwin" type="rss" xmlUrl="http://cirw.in/blog/rss.xml" htmlUrl="http://cirw.in/"/>
+   <outline title="Paracode" text="Paracode" type="rss" xmlUrl="http://blog.paracode.com/atom.xml" htmlUrl="http://blog.paracode.com/"/>
+   <outline title="The GitHub Blog" text="The GitHub Blog" type="rss" xmlUrl="https://github.com/blog/all.atom" htmlUrl="https://github.com/blog"/>
+  </outline>
+  <outline title="Code - Web" text="Code - Web">
+   <outline title="Smashing Magazine Feed" text="Smashing Magazine Feed" type="rss" xmlUrl="http://rss1.smashingmagazine.com/feed/" htmlUrl="http://www.smashingmagazine.com/"/>
+   <outline title="2ality - technology, life" text="2ality - technology, life" type="rss" xmlUrl="http://feeds.feedburner.com/2ality" htmlUrl="http://www.2ality.com/"/>
+   <outline title="Breaking the Mobile Web" text="Breaking the Mobile Web" type="rss" xmlUrl="http://www.mobilexweb.com/feed" htmlUrl="http://www.mobilexweb.com"/>
+   <outline title="Paul Irish" text="Paul Irish" type="rss" xmlUrl="http://feeds.feedburner.com/paul-irish" htmlUrl="http://paulirish.com/"/>
+   <outline title="Wondering around" text="Wondering around" type="rss" xmlUrl="http://feeds.feedburner.com/WonderingAround" htmlUrl="http://www.eishay.com/"/>
+   <outline title="Aerotwist Blog" text="Aerotwist Blog" type="rss" xmlUrl="http://aerotwist.com/blog/feed/" htmlUrl=""/>
+   <outline title="The CSS Ninja" text="The CSS Ninja" type="rss" xmlUrl="http://feeds.feedburner.com/TheCSSNinja" htmlUrl="http://www.thecssninja.com"/>
+   <outline title="jim(tea, code) -&gt; bliss++" text="jim(tea, code) -&gt; bliss++" type="rss" xmlUrl="http://feeds.feedburner.com/freshbrewedcodejc" htmlUrl="http://freshbrewedcode.com/jimcowart"/>
+   <outline title="Pony Foo" text="Pony Foo" type="rss" xmlUrl="http://blog.ponyfoo.com/rss/latest.xml" htmlUrl="http://blog.ponyfoo.com"/>
+   <outline title="" text="" type="rss" xmlUrl="http://ionicframework.com/blog/feed.xml" htmlUrl=""/>
+   <outline title="Ben Alman » News" text="Ben Alman » News" type="rss" xmlUrl="http://feeds.benalman.com/benalman" htmlUrl="http://pipes.yahoo.com/pipes/pipe.info?_id=7pC7HRAi3RGGdfjlMlrX_Q"/>
+   <outline title="קוד נקי" text="קוד נקי" type="rss" xmlUrl="http://www.mcterano.com/blog/feed/" htmlUrl="http://www.mcterano.com/blog"/>
+   <outline title="Mozilla Hacks - the Web developer blog" text="Mozilla Hacks - the Web developer blog" type="rss" xmlUrl="https://hacks.mozilla.org/feed/" htmlUrl="https://hacks.mozilla.org"/>
+   <outline title="HTML5Rocks" text="HTML5Rocks" type="rss" xmlUrl="http://feeds.feedburner.com/html5rocks" htmlUrl="http://pipes.yahoo.com/pipes/pipe.info?_id=647030be6aceb6d005c3775a1c19401c"/>
+   <outline title="drublic" text="drublic" type="rss" xmlUrl="http://feeds.feedburner.com/drublic" htmlUrl="http://drublic.de/blog"/>
+   <outline title="bassistance.de" text="bassistance.de" type="rss" xmlUrl="http://bassistance.de/feed/" htmlUrl="http://bassistance.de"/>
+   <outline title="AddyOsmani.com | Articles for developers" text="AddyOsmani.com | Articles for developers" type="rss" xmlUrl="http://feeds.feedburner.com/addyosmani" htmlUrl="http://addyosmani.com/blog"/>
+  </outline>
+  <outline title="Tech Blogs" text="Tech Blogs">
+   <outline title="Seth Levine" text="Seth Levine" type="rss" xmlUrl="http://feeds.feedburner.com/VC_Adventure" htmlUrl="http://www.sethlevine.com/wp"/>
+   <outline title="Personal Technology" text="Personal Technology" type="rss" xmlUrl="http://ptech.allthingsd.com/feed/" htmlUrl="http://allthingsd.com"/>
+   <outline title="עושים היסטוריה" text="עושים היסטוריה" type="rss" xmlUrl="http://www.ranlevi.com/feed/" htmlUrl="http://www.ranlevi.com"/>
+   <outline title="The Naive Optimist" text="The Naive Optimist" type="rss" xmlUrl="http://feeds.feedburner.com/ryanleecarson" htmlUrl="http://ryancarson.com/"/>
+   <outline title="ben's blog" text="ben's blog" type="rss" xmlUrl="http://feeds.feedburner.com/bhorowitz" htmlUrl="http://bhorowitz.com"/>
+   <outline title="Paul Graham: Essays" text="Paul Graham: Essays" type="rss" xmlUrl="http://www.aaronsw.com/2002/feeds/pgessays.rss" htmlUrl="http://www.paulgraham.com/"/>
+   <outline title="Scobleizer — Scobleizer" text="Scobleizer — Scobleizer" type="rss" xmlUrl="http://scobleizer.com/feed/rss/" htmlUrl="http://scobleizer.com"/>
+   <outline title="‫Newsgeek‬" text="‫Newsgeek‬" type="rss" xmlUrl="http://feeds.feedburner.com/newsgeekfeed" htmlUrl="http://www.newsgeek.co.il"/>
+   <outline title="TechCrunch" text="TechCrunch" type="rss" xmlUrl="http://feeds.feedburner.com/Techcrunch" htmlUrl="http://techcrunch.com"/>
+   <outline title="Dave McClure" text="Dave McClure" type="rss" xmlUrl="http://500hats.com/feed" htmlUrl="http://500hats.com"/>
+   <outline title="A VC" text="A VC" type="rss" xmlUrl="http://feeds.feedburner.com/AVc" htmlUrl="http://www.avc.com/a_vc/"/>
+   <outline title="Om Malik" text="Om Malik" type="rss" xmlUrl="http://om.co/feed/" htmlUrl="http://om.co"/>
+   <outline title="Roee Adler's Clown College" text="Roee Adler's Clown College" type="rss" xmlUrl="http://feeds.feedburner.com/roadler" htmlUrl="http://roee.co"/>
+   <outline title="The Verge -  All Posts" text="The Verge -  All Posts" type="rss" xmlUrl="http://www.theverge.com/rss/frontpage" htmlUrl="http://www.theverge.com/"/>
+   <outline title="Re/code" text="Re/code" type="rss" xmlUrl="http://recode.net/feed/" htmlUrl="http://recode.net"/>
+   <outline title="philosophically by Vibhu Norby" text="philosophically by Vibhu Norby" type="rss" xmlUrl="http://philosophically.com/feed" htmlUrl="http://philosophically.com"/>
+  </outline>
+  <outline title="Android" text="Android">
+   <outline title="אנדרואיד למפתחים - הבלוג של רונן הלוי  Android in Heb by Ronen Halevy" text="אנדרואיד למפתחים - הבלוג של רונן הלוי  Android in Heb by Ronen Halevy" type="rss" xmlUrl="http://ronenhalevy-android.blogspot.com/feeds/posts/default" htmlUrl="http://ronenhalevy-android.blogspot.com/"/>
+   <outline title="Android Developers Live Podcasts" text="Android Developers Live Podcasts" type="rss" xmlUrl="http://feeds.feedburner.com/AndroidDevelopersLivePodcast" htmlUrl="http://androiddeveloperslive.blogspot.com/"/>
+   <outline title="louisgray.com" text="louisgray.com" type="rss" xmlUrl="http://feeds.feedburner.com/LouisgraycomLive" htmlUrl="http://blog.louisgray.com/"/>
+   <outline title="Zukifying Security" text="Zukifying Security" type="rss" xmlUrl="http://imthezuk.blogspot.com/feeds/posts/default" htmlUrl="http://imthezuk.blogspot.com/"/>
+   <outline title="iAndroid - HTC Hero &amp; nexus" text="iAndroid - HTC Hero &amp; nexus" type="rss" xmlUrl="http://iandroid.co.il/hero-nexus/?feed=rss2" htmlUrl="http://iandroid.co.il/hero-nexus"/>
+   <outline title="Android Developers Blog" text="Android Developers Blog" type="rss" xmlUrl="http://android-developers.blogspot.com/atom.xml" htmlUrl="http://android-developers.blogspot.com/"/>
+   <outline title="Josh Thought" text="Josh Thought" type="rss" xmlUrl="http://joshclemm.com/blog/?feed=rss2" htmlUrl="http://joshclemm.com/blog"/>
+   <outline title="Pushing Pixels" text="Pushing Pixels" type="rss" xmlUrl="http://feeds.feedburner.com/pushingpixels" htmlUrl="http://www.pushing-pixels.org"/>
+  </outline>
+  <outline title="Code - Java" text="Code - Java">
+   <outline title="Java Tuning" text="Java Tuning" type="rss" xmlUrl="http://feeds.feedburner.com/JavaTuning" htmlUrl="http://www.javatuning.com"/>
+   <outline title="Java: Developing On The Streets" text="Java: Developing On The Streets" type="rss" xmlUrl="http://feeds.feedburner.com/jdots" htmlUrl="http://javadots.blogspot.com/"/>
+  </outline>
+  <outline title="Code - Android" text="Code - Android">
+   <outline title="Android Developers Backstage" text="Android Developers Backstage" type="rss" xmlUrl="http://feeds.feedburner.com/blogspot/AndroidDevelopersBackstage" htmlUrl="http://androidbackstage.blogspot.com/"/>
+   <outline title="Design by Code" text="Design by Code" type="rss" xmlUrl="http://designbycode.tumblr.com/rss" htmlUrl="http://designbycode.tumblr.com/"/>
+   <outline title="The CommonsBlog" text="The CommonsBlog" type="rss" xmlUrl="http://commonsware.com/blog/atom.xml" htmlUrl="http://www.google.com/reader/view/feed%2Fhttp%3A%2F%2Fcommonsware.com%2Fblog%2Fatom.xml"/>
+   <outline title="Styling Android" text="Styling Android" type="rss" xmlUrl="http://blog.stylingandroid.com/feed" htmlUrl="http://blog.stylingandroid.com"/>
+   <outline title="Android Tales" text="Android Tales" type="rss" xmlUrl="http://feeds.feedburner.com/AndroidTales" htmlUrl="http://android.amberfog.com"/>
+  </outline>
+  <outline title="Google" text="Google">
+   <outline title="Google LatLong" text="Google LatLong" type="rss" xmlUrl="http://google-latlong.blogspot.com/atom.xml" htmlUrl="http://google-latlong.blogspot.com/"/>
+   <outline title="Google Mobile Blog" text="Google Mobile Blog" type="rss" xmlUrl="http://feeds.feedburner.com/OfficialGoogleMobileBlog" htmlUrl="http://googlemobile.blogspot.com/"/>
+   <outline title="Google Chrome Blog" text="Google Chrome Blog" type="rss" xmlUrl="http://chrome.blogspot.com/atom.xml" htmlUrl="http://chrome.blogspot.com/"/>
+   <outline title="The Official Google Blog" text="The Official Google Blog" type="rss" xmlUrl="http://googleblog.blogspot.com/atom.xml" htmlUrl="http://googleblog.blogspot.com/"/>
+  </outline>
+  <outline title="Movies" text="Movies">
+   <outline title="HDME.eu" text="HDME.eu" type="rss" xmlUrl="http://hdme.eu/rss.php?cat=32&amp;passkey=effd4d7f624d63b2d2c75125b3dfd3a0" htmlUrl="http://hdme.eu"/>
+  </outline>
+  <outline title="Codedependent" text="Codedependent" type="rss" xmlUrl="http://graphics-geek.blogspot.com/feeds/posts/default" htmlUrl="http://graphics-geek.blogspot.com/"/>
+  <outline title="Software Archiblog -- בלוג ארכיטקטורת תוכנה" text="Software Archiblog -- בלוג ארכיטקטורת תוכנה" type="rss" xmlUrl="http://feeds.feedburner.com/softwarearchiblog/Lvlq" htmlUrl="http://www.softwarearchiblog.com/"/>
+  <outline title="הבלוג של רביב דרוקר" text="הבלוג של רביב דרוקר" type="rss" xmlUrl="http://israblog.nana10.co.il/blog_rss.asp?blog=394281" htmlUrl="http://israblog.nana10.co.il/blogread.asp?blog=394281"/>
+ </body>
+</opml>

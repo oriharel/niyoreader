@@ -11,9 +11,21 @@
     <ListView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/postListView"
+        android:id="@+id/feedGroupsListView"
         android:layout_alignParentTop="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
-        tools:listitem="@layout/rss_subs_item" />
+        tools:listitem="@layout/rss_subs_item"
+        android:visibility="gone" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="There are no feeds"
+        android:id="@+id/noFeeds"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:textSize="@dimen/no_feeds_text"
+        android:gravity="center"
+        android:visibility="gone" />
 </RelativeLayout>
