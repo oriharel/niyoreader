@@ -17,6 +17,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".FeedsListActivity"></activity>
 
         <provider android:name=".data.ReaderContentProvider" android:authorities="com.niyo.reader.provider" android:exported="false"></provider>
     </application>
