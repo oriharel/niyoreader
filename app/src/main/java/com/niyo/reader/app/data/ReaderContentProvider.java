@@ -25,10 +25,13 @@ public class ReaderContentProvider extends ContentProvider {
 
     public static final int FEEDS = 1;
     public static final int FEED_ID = 2;
+    public static final int FEED_ITEMS = 3;
+    public static final int FEED_ITEM = 4;
 
     private static final UriMatcher sUriMatcher;
 
     private static HashMap<String, String> sFeedsProjectionMap;
+    private static HashMap<String, String> sFeedItemsProjectionMap;
 
     static {
 
@@ -56,6 +59,21 @@ public class ReaderContentProvider extends ContentProvider {
         sFeedsProjectionMap.put(FeedsTableColumn.XML_URL, FeedsTableColumn.XML_URL);
 
         sFeedsProjectionMap.put(FeedsTableColumn.FEED_GROUP, FeedsTableColumn.FEED_GROUP);
+
+        sUriMatcher.addURI(NiyoReader.AUTHORITY, "feedItems", FEED_ITEMS);
+        sUriMatcher.addURI(NiyoReader.AUTHORITY, "feedItems/#", FEED_ITEM);
+
+        sFeedItemsProjectionMap = new HashMap<String, String>();
+        sFeedItemsProjectionMap.put(FeedItemsTableColumns._ID, FeedItemsTableColumns._ID);
+        sFeedItemsProjectionMap.put(FeedItemsTableColumns.TITLE, FeedItemsTableColumns.TITLE);
+        sFeedItemsProjectionMap.put(FeedItemsTableColumns.LINK, FeedItemsTableColumns.LINK);
+        sFeedItemsProjectionMap.put(FeedItemsTableColumns.GUID, FeedItemsTableColumns.GUID);
+        sFeedItemsProjectionMap.put(FeedItemsTableColumns.PUB_DATE, FeedItemsTableColumns.PUB_DATE);
+        sFeedItemsProjectionMap.put(FeedItemsTableColumns.AUTHOR, FeedItemsTableColumns.AUTHOR);
+        sFeedItemsProjectionMap.put(FeedItemsTableColumns.DESCRIPTION, FeedItemsTableColumns.DESCRIPTION);
+        sFeedItemsProjectionMap.put(FeedItemsTableColumns.ENCLUSURE_URL, FeedItemsTableColumns.ENCLUSURE_URL);
+        sFeedItemsProjectionMap.put(FeedItemsTableColumns.CONTENT, FeedItemsTableColumns.CONTENT);
+        sFeedItemsProjectionMap.put(FeedItemsTableColumns.FEED_URL, FeedItemsTableColumns.FEED_URL);
 
     }
 
@@ -106,6 +124,16 @@ public class ReaderContentProvider extends ContentProvider {
                                 // the position of the note ID itself in the incoming URI
                                 uri.getPathSegments().get(FeedsTableColumn.COLUMN_ID_PATH_INDEX));
                 break;
+            case FEED_ITEMS:
+                qb.setProjectionMap(sFeedItemsProjectionMap);
+                break;
+            case FEED_ITEM:
+                qb.setProjectionMap(sFeedItemsProjectionMap);
+                qb.appendWhere(
+                        FeedItemsTableColumns._ID +
+                                "=" +
+                                uri.getPathSegments().get(FeedItemsTableColumns.COLUMN_ID_INDEX));
+                break;
 
             default:
                 // If the URI doesn't match any of the known patterns, throw an exception.
@@ -151,8 +179,18 @@ public class ReaderContentProvider extends ContentProvider {
     public Uri insert(Uri uri, ContentValues contentValues) {
         Log.d(LOG_TAG, "insert started "+uri);
         Log.d(LOG_TAG, "the feed title is "+contentValues.getAsString(FeedsTableColumn.TITLE));
-        String table = NiyoDbHelper.FEEDS_TABLE;
-        getWritableDb().insert(table, FeedsTableColumn.TITLE, contentValues);
+
+        switch (sUriMatcher.match(uri)) {
+            case FEEDS:
+                getWritableDb().insert(NiyoDbHelper.FEEDS_TABLE, FeedsTableColumn.TITLE, contentValues);
+                break;
+            case FEED_ITEMS:
+                getWritableDb().insert(NiyoDbHelper.FEED_ITEMS_TABLE, FeedItemsTableColumns.TITLE, contentValues);
+                break;
+            default:
+                throw new IllegalArgumentException("Unknown URI " + uri);
+        }
+
         getContext().getContentResolver().notifyChange(uri, null);
         return uri;
     }
