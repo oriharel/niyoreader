@@ -17,6 +17,7 @@ import android.widget.SimpleCursorAdapter;
 import android.widget.TextView;
 
 import com.niyo.reader.app.data.FeedsTableColumn;
+import com.niyo.reader.app.data.FullUpdateTask;
 import com.niyo.reader.app.data.InsertXmlToProvider;
 import com.niyo.reader.app.data.NiyoReader;
 
@@ -30,6 +31,9 @@ public class MainActivity extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        FullUpdateTask task = new FullUpdateTask(this);
+        task.execute();
     }
 
     @Override
